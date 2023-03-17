@@ -9,15 +9,11 @@
 </head>
 
 <body>
+	<header></header>
+	<section></section>
 
 <h1>Hello World</h1>
-	<header>
-
-	</header>
-
-	<section>
-
-	</section>
+	
 	<!-- STEP 1: Build out a HEADER and a SECTION element -->
 
 	<script>
@@ -45,11 +41,21 @@
 		request.onload = function(){
 			var iScreamInc = request.response;
 			console.log(iScreamInc);
-			//populateHeader()
-			//showTopFlavors()
+			populateHeader(iScreamInc)
+			//showTopFlavors(iScreamInc)
 		}
 
 		/* STEP 9: Build out the populateHeader() function */
+		function populateHeader(jsonObj){
+			// Grab the company name
+			var headerH1 = document.createElement('h1');
+			headerH1.textContent = jsonObj.companyName;
+			header.appendChild(headerH1);
+			// Grab the comapny location and establishes data
+			var headerPara = document.createElement('p')
+			headerPara.textContent='Head Office'+jsonObj('headoffice')+', Established:'+jsonObj('established');
+			header.appendChild(headerPara);
+		}
 
 		/* STEP 10a: Assemble the showTopFlavors() function */
 
