@@ -36,6 +36,28 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "ice cream",
+      "calories": 425,
+      "type": "frozen yogurt",
+      "ingredients": [
+        "Strawberries",
+        "Chocolate dip",
+        "candy"
+      ],
+      "image": "ice-cream-xtra2.svg"
+    },
+    {
+      "name": "ice cream",
+      "calories": 425,
+      "type": "yogurt",
+      "ingredients": [
+        "Strawberries",
+        "Chocolate dip",
+        "candy"
+      ],
+      "image": "ice-cream-xtra1.svg"
     }
   ]
 }
