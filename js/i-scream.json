@@ -38,22 +38,22 @@
       "image": "strawberry-sprinkle.svg"
     },
     {
-      "name": "ice cream",
-      "calories": 425,
-      "type": "frozen yogurt",
+      "name": "vanilla ice cream",
+      "calories": 207,
+      "type": "vanilla",
       "ingredients": [
-        "Strawberries",
+        "Milk",
         "Chocolate dip",
         "candy"
       ],
       "image": "ice-cream-xtra2.svg"
     },
     {
-      "name": "ice cream",
-      "calories": 425,
-      "type": "yogurt",
+      "name": "butterscotch",
+      "calories": 390,
+      "type": "butter",
       "ingredients": [
-        "Strawberries",
+        "butter",
         "Chocolate dip",
         "candy"
       ],
